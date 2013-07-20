@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express.create(express.logger());
+var app = express.createServer(express.logger());
 // app.use(express.logger());
 
 app.get('/', function(request, response) {
